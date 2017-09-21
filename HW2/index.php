@@ -1,5 +1,5 @@
 <?php
-	$pic = array('am.png','bs.png','Js.png','vm.png');
+	$pic = array('airmax.jpg','hyperdunk.jpg','jordan1.jpg','vapormax.jpg');
 	shuffle($pic);
 ?>
 <html>
