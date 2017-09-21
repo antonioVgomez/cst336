@@ -11,7 +11,7 @@
 	<?php
 	   for( $i = 0; $i < 4; $i++)
 	      echo "<li style=\"display: inline;\">
-                         <img src=\"$pic[$i]\" width=\"500\" height=\"500\">
+                         <img src=\"$pic[$i]\" width=\"960\" height=\"600\">
                        </li>";
  
 	?>	
