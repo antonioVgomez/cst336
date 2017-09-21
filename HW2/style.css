@@ -1,13 +1,5 @@
-* {
-    margin:0;
-    padding:0;
-}
-
-#kicks{
-    width:960px;
-    margin:0 auto;
-}
-
-shoes{
-    padding: px; background:#900; margin:0 2px;
+h1{
+    font-family: Courier;
+    border: 1px solid black ;
+    
 }
