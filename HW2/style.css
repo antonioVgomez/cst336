@@ -1,5 +1,8 @@
 h1{
     font-family: Courier;
-    border: 1px solid black ;
+    width: 300px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px;
     
 }
