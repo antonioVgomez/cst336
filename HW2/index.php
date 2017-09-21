@@ -1,7 +1,9 @@
 <html>
  <head>
-  <title>Random Images</title
-  <link rel ="stylesheet" type="text/css" href="style.css"/>
+  <title>Random Images</title>
+  <style>
+            @import url("css/styles.css");
+   </style>
  </head>
  <body>
 
