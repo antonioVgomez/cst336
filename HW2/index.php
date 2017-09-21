@@ -5,16 +5,16 @@
  <body>
   <ul>
 	<?php
-		$pic = array('airmax.jpg','hyperdunk.jpg','jordan1.jpg','vapormax.jpg');
-	 shuffle($pic);
+		$shoes = array(
+	         '< img src= "images/airmax.jpg"/>',
+	         '< img src= "images/hyperdunk.jpg"/>',
+	         '< img src= "images/jordan1.jpg"/>',
+	         '< img src= "imagesv/vapormax.jpg"/>');
+	 shuffle($shoes);
 	
 	   for( $i = 0; $i < 4; $i++)
 	      echo "<li style=\"display: inline;\">
-<<<<<<< HEAD
-                         <img src=\"$pic[$i]\" width=\"940\" height=\"600\">
-=======
-                         <img src=\"$pic[$i]\" width=\"960\" height=\"600\">
->>>>>>> a51499977dd849c6b4d7d6b15013c06426202384
+                         <img src=\"$shoes[$i]\" width=\"940\" height=\"600\">
                        </li>";
  
 	?>	
