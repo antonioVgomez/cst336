@@ -11,9 +11,9 @@
 	<?php
 		$shoes = array(
 	         '< img src= "images/airmax.jpg" title="kicks 1"/>',
-	         '< img src= "images/hyperdunk.jpg" title="kicks 2"/>',
-	         '< img src= "images/jordan1.jpg" title="kicks 3"/>',
-	         '< img src= "imagesv/vapormax.jpg" title="kicks 4"/>'
+	         '< img src= "images/hyperdunk.jpg" title="kicks 1"/>',
+	         '< img src= "images/jordan1.jpg" title="kicks 1"/>',
+	         '< img src= "images/vapormax.jpg" title="kicks 1"/>'
 	         );
 	 shuffle($shoes);
 	 $rand = array_slice($shoes,0,4);
