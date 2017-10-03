@@ -1,0 +1,23 @@
+[03-Oct-2017 18:57:12 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/Lab4/Slider/index.php on line 21
+[03-Oct-2017 18:57:34 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/Lab4/Slider/index.php on line 21
+[03-Oct-2017 18:57:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Lab4/Slider/index.php on line 149
+[03-Oct-2017 18:58:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Lab4/Slider/index.php on line 119
+[03-Oct-2017 18:59:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Lab4/Slider/index.php on line 119
+[03-Oct-2017 19:01:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Lab4/Slider/index.php on line 116
+[03-Oct-2017 19:04:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Lab4/Slider/index.php on line 108
+[03-Oct-2017 19:13:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Lab4/Slider/index.php on line 104
+[03-Oct-2017 19:14:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Lab4/Slider/index.php on line 104
+[03-Oct-2017 19:14:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Lab4/Slider/index.php on line 104
+[03-Oct-2017 19:15:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Lab4/Slider/index.php on line 104
+[03-Oct-2017 19:28:58 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/Lab4/Slider/index.php on line 14
+[03-Oct-2017 19:28:58 UTC] PHP Stack trace:
+[03-Oct-2017 19:28:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab4/Slider/index.php:0
+[03-Oct-2017 19:28:58 UTC] PHP   2. array_rand(*uninitialized*) /home/ubuntu/workspace/Lab4/Slider/index.php:14
+[03-Oct-2017 19:28:59 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/Lab4/Slider/index.php on line 14
+[03-Oct-2017 19:28:59 UTC] PHP Stack trace:
+[03-Oct-2017 19:28:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab4/Slider/index.php:0
+[03-Oct-2017 19:28:59 UTC] PHP   2. array_rand(*uninitialized*) /home/ubuntu/workspace/Lab4/Slider/index.php:14
+[03-Oct-2017 19:29:00 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/Lab4/Slider/index.php on line 14
+[03-Oct-2017 19:29:00 UTC] PHP Stack trace:
+[03-Oct-2017 19:29:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab4/Slider/index.php:0
+[03-Oct-2017 19:29:00 UTC] PHP   2. array_rand() /home/ubuntu/workspace/Lab4/Slider/index.php:14
