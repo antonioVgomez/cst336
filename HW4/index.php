@@ -29,7 +29,7 @@
     
     <p id="Welcome"></p>
     <form id="greet"> 1.What Is Your Name?: <input type ="text" id="name"/><br/>
-        <input id="greet" type ="button" value="done" onclick="write_name();"/>
+        <input id="butt" type ="button" value="done" onclick="write_name();"/>
     </form></br>
     
 <!--end of first form-->
