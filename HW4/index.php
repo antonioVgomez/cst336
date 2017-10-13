@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <title>Sneaker News</title>
   
-  <link rel ="stylesheet" href="/cst336-github/HW4/style.css">
+  <link rel ="stylesheet" href="/HW4/style.css">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
   
   
