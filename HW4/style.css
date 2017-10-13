@@ -1,0 +1,88 @@
+body{
+    background-image: url(/cst336-github/HW4/imgs/sneakerboy.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+}
+.top-header{
+    width:100%;
+    max-width: 960px;
+    font:6em 'Bungee Inline', cursive;
+    color:yellow;
+}
+
+h2{
+    width:100%;
+    max-width: 960px;
+    font:6em 'Bungee Inline', cursive;
+    color:yellow;
+}
+
+#butt{
+    padding: 10px 20px 11px !important;
+    font:6em 'Bungee Inline', cursive;
+    font-size: 21px !important;
+    background-color: #57d6c7;
+    font-weight: bold;
+    text-shadow: 1px 1px #57D6c7;
+    color: yellow;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border: 1px solid #57D6c7;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+#sneakerMenu{
+    padding: 10px 20px 11px !important;
+    font:6em 'Bungee Inline', cursive;
+    font-size: 21px !important;
+    background-color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    color: #57D6c7;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+#greet{
+    padding: 5px 10px 5.5px !important;
+    font:6em 'Bungee Inline', cursive;
+    font-size: 21px !important;
+    background-color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    color: #57D6c7;
+     border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+#Welcome{
+    padding: 10px 20px 11px !important;
+    font:6em 'Bungee Inline', cursive;
+    font-size: 21px !important;
+    background-color: #57d6c7;
+    font-weight: bold;
+    text-shadow: 1px 1px #57D6c7;
+    color: yellow;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border: 1px solid #57D6c7;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
