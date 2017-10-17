@@ -1,0 +1,129 @@
+<!--
+ Course : CST205
+ Title : index.html
+ Authors: Antonio Villagomez
+ Abstract : This file contains the structure of the webpage. How things
+			 are suppose to be layed out. What goes where and it contains
+			 some CSS
+ Date : 03/15/2017
+ Who worked on what: Antonio wrote this file and was in charge of styling
+					it
+
+-->
+
+<html>
+    
+    <head>
+
+        <title>CST205 - Project 2</title>
+        <link rel="shortcut icon" href="/PATH_TO_STATIC_FAVICON/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="/static/style.css" />
+<meta name="google-signin-scope" content="profile email" />
+<meta name="google-signin-client_id"
+content="935158962419-7g03oq9tkokkii66lo2et6g8mt049aqt.apps.googleusercontent.com" />
+<script src="https://apis.google.com/js/platform.js" async defer> </script>
+
+<style>
+
+body {
+background-image: url({{back}});
+background-repeat: no-repeat;
+background-size:     cover;                    
+background-position: center center;    
+background-color: powderblue; 
+}
+button {
+    background-color: black;
+    font-family: Verdana;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.8;
+    font-size: 16px;
+}
+.enjoy-css {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 11px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: rgba(0,142,198,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+  
+h1,h4 {
+font-family: Verdana;
+font-size: 57px;
+font-weight: 200;
+line-height: 26.4px;
+text-align: center;
+color: black;
+-webkit-text-fill-color: white; /* keeping text visible on any background */
+-webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color: black;
+}
+.scroll {
+  
+}
+.scrollPhoto {
+    background-color: #ffffff;
+    height: 100px;
+    overflow: scroll;
+    margin: 50px;
+    border: 2px solid black;
+    opacity: 0.8;
+    text-align:center;
+    padding:30px;
+}
+    
+</style>
+    </head>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '642141299328442',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();   
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+        <div id="content"></div>
+<h3 id="banner" style="color:white;float:left"></h3>
+        <script type="text/javascript" src="/static/script.js"></script>
+    
+            <script>
+            alert("Welcome to the chatroom\nLogin and type \"!! help\" to view list of\
+ bot commands\nYou can paste pictures in the chat and also youtube videos.\n\
+They will render inline");
+
+        </script>
+    
+    </body>
+</html>

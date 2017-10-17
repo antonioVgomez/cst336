@@ -1,0 +1,107 @@
+/*
+ Course : CST205
+ Title : index.html
+ Authors: Antonio Villagomez
+ Abstract : This contains the css of our app. The borders, colors and
+			positioning of element
+ Date : 03/15/2017
+ Who worked on what: Antonio wrote this file and was in charge of styling
+					it
+
+*/
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+.heading {
+
+    text-align:center;
+   
+}
+#banner
+{
+    padding-top:40px;
+}
+
+.number-item {
+    background-color: green;
+}
+
+.chatroom
+{
+	width:80%;
+    height: 55%;
+    margin:auto;
+   
+}
+
+.usersSection
+{
+    overflow-y:scroll;
+    width:200px;
+    height:50%;
+    background-color:white;
+}
+.spotifyContainer{
+     opacity: 0.8;
+     text-align: center;
+    
+}
+
+#photo{
+  width: 60px;
+  height: 60px;
+  background: #ccc;
+  border-radius: 50%;
+
+}
+.msgArea
+{
+   	background-color:white;
+	height:100%;
+    border-radius: 58px 0px 49px 0px;
+    -moz-border-radius: 58px 0px 49px 0px;
+    -webkit-border-radius: 58px 0px 49px 0px;
+    border: 18px solid #000000;
+	opacity: 0.8;
+	overflow-y:scroll;
+	background-color: #ffffff;
+}
+#msgtext{
+  padding:15px;
+  width: 70%;
+  margin: 5px 10px 0;
+  background: #1ddced;
+  border-radius: 10px;
+  color: black;   
+  font-size: 18px;
+}
+
+p
+{
+	color:black;
+}
+
+img {
+    width:250px;
+    height:250px;
+}
+#spotifyinput .text{
+    
+    position: absolute;
+    top:220;
+    right: 198; 
+    
+}
+#Spotifyframe {
+    height:320px;
+    width:302px;
+    position: absolute;
+    top:198;
+    right: 198;
+    visibility: hidden
+        
+}
+
+
+
